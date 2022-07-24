@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'rm_typerighter';
+  src: local('rm_typerighter'), url(./fonts/rm_typerighter.ttf) format('truetype');
+}
+
+/* Typography */
+body, ul, li, p, a, label, input, div, button {
+  font-family: 'rm_typerighter', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'rm_typerighter', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'rm_typerighter', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'rm_typerighter', sans-serif;
+  font-size: 22px !important;
+}
+
+h1, h2, h3, h4, h5 {
+  background: -webkit-linear-gradient(35deg, #00DDFF, #00FFCE);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  color: #00DDFF !important;
+}
+
+button:hover {
+  background: -webkit-linear-gradient(35deg, #00DDFF, #00FFCE);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorspan {
+  background: -webkit-linear-gradient(45deg, #00DDFF, #00FFCE);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main, footer {
+  background-image: linear-gradient(200deg, #090D3A, #00DDFF );
+}
+
+body::before {
+  display:block;
+  height: 70px;
+}
+
+.colorMenu {
+  color:#00DDFF !important;
+  background-color: #090D3A !important;  
+}
+
+.colorMenu:hover {
+  color: #00FFCE !important;
+  text-decoration: underline !important;
+}
+
+.colormc {
+  background-color: #090D3A !important;
+}
+
+.colorcrd {
+  background-color: #27365A !important;
+}
+
+.section1 {
+  margin-top: 6rem;
+}
+
+.section2 {
+  margin-top: 0rem;
+}
+
+section {
+  margin-top: 1.5rem;
+  background-color: #090D3A !important;
+}
+
+main {
+  min-height: 100vh;
+}
+
+h1 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.photo {
+  height: 500px;
+  width: 200px;
+}
+
+.margin {
+  margin-top: 1.5rem;
+}
+
+.textarea {  
+  width:100px; 
+  height:90px; 
+  overflow:auto;  
+} 
+
+.cardimage {
+  width:145px;
+  height:100px;
+  overflow:hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardimagegrabacion {
+  width: 160px;
+  height:100px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-space {
+  margin-left: 8px;
+  margin-right: 3px;
+  height: 36px;
+  text-align: center;
+}
+
+.cardblogsize {
+  width: 50rem;
+}
+
+mark {
+  color:#00DDFF !important;
+  background-color: #090D3A !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
